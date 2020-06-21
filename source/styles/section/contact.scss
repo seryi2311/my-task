@@ -1,0 +1,11 @@
+.contact{
+  &_tell{
+    display: inline-block;
+    a{
+      display: block;
+    }
+  }
+  &_mail{
+    vertical-align: middle;
+  }
+}

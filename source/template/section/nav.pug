@@ -1,0 +1,7 @@
+nav.nav
+  - var items = ['Главная', 'Проекты', 'Услуги', 'О компании', 'Готовые решения', 'Контакты']
+    each item in items
+      if item==='Home'
+        a.nav_link.nav_link-active(href="#")=item
+      else
+        a.nav_link(href="#")=item
