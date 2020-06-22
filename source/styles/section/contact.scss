@@ -1,11 +1,28 @@
 .contact{
   &_tell{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     a{
-      display: block;
+      font-weight: normal;
+      font-size: 11px;
+      line-height: 13px;
+      color: #397DFF;
     }
   }
   &_mail{
     vertical-align: middle;
+    margin-right: 56px;
+
+    &:before{
+      @include sprite($mail_icon)
+      content:  $mail_icon;
+
+    }
+  }
+  &_text{
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #2B2D3A;
   }
 }

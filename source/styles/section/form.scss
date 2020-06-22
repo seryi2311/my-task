@@ -1,0 +1,25 @@
+.form{
+  max-width: 538px;
+  background-color: green;
+
+  &_container{
+    padding-left: 42px;
+  }
+
+
+  &_title{
+    padding-top: 32px;
+  }
+
+  &_enter{
+    display: flex;
+    flex-direction: column;
+  }
+  &_input{
+    width: 90%;
+  }
+  &_check{
+    display: flex;
+    flex-direction: row;
+  }
+}
