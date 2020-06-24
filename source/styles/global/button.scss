@@ -1,8 +1,13 @@
 .button{
-  background: $button_color;
-  text-transform: uppercase;
+  background-color: #397DFF;
+  width: 90%;
+  height: 52px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
   border: none;
-  margin: auto;
+  border-radius: 8px;
   &:hover, &:focus, &:active{
   background-color:  lighten($button_color, 10%);
   }

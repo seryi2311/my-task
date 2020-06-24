@@ -2,6 +2,13 @@
   &_tell{
     display: flex;
     flex-direction: column;
+
+
+    &_icon{
+      @include sprite($phone-icon);
+      background-image: url($phone-icon-image);
+      margin-right: 10px;
+    }
     a{
       font-weight: normal;
       font-size: 11px;
@@ -13,10 +20,10 @@
     vertical-align: middle;
     margin-right: 56px;
 
-    &:before{
-      @include sprite($mail_icon)
-      content:  $mail_icon;
-
+    &_icon{
+      @include sprite($mail-icon);
+      background-image: url($mail-icon-image);
+      margin-right: 8px;
     }
   }
   &_text{

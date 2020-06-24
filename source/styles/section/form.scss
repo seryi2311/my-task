@@ -1,6 +1,8 @@
 .form{
   max-width: 538px;
-  background-color: green;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 16px;
 
   &_container{
     padding-left: 42px;
@@ -9,6 +11,18 @@
 
   &_title{
     padding-top: 32px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2B2D3A;
+  }
+
+  &_text{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: #2B2D3A;
+    margin-bottom: 28px;
   }
 
   &_enter{
@@ -17,6 +31,10 @@
   }
   &_input{
     width: 90%;
+    height: 48px;
+    margin-bottom: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 9px;
   }
   &_check{
     display: flex;
